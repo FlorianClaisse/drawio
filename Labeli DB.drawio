@@ -1,29 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T16:37:23.147Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HyGbzsPRtoh4SZSMCm71" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T16:38:55.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mOjWiO13_qpna23tlYLF" version="24.5.4" type="github">
   <diagram name="Page-1" id="c2jvkfj87v3BeWDT-e6X">
     <mxGraphModel dx="1085" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NJMFw-u_C302tOv5NdWR-11" value="Category" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="-240" width="200" height="164" as="geometry" />
+          <mxGeometry y="-240" width="200" height="138" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-12" value="id: UUID!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NJMFw-u_C302tOv5NdWR-13" value="name: String! (ascii &amp;amp; != &quot;&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
+        <mxCell id="NJMFw-u_C302tOv5NdWR-13" value="name: String! (!empty)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NJMFw-u_C302tOv5NdWR-14" value="colorID: UUID!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
+        <mxCell id="M-7lPc3vYGi1HaKLYja3-75" value="organizationID: UUID!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NJMFw-u_C302tOv5NdWR-11">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
           <mxGeometry y="104" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NJMFw-u_C302tOv5NdWR-69" value="color: Color" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
-          <mxGeometry y="112" width="200" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-72" value="products: [Product]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-11" vertex="1">
-          <mxGeometry y="138" width="200" height="26" as="geometry" />
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-19" value="User" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="-840" width="200" height="242" as="geometry" />
@@ -56,7 +53,7 @@
           <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-40" value="Product" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="-240" width="200" height="242" as="geometry" />
+          <mxGeometry x="320" y="-240" width="200" height="216" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-41" value="id: UUID!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-40" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -81,9 +78,6 @@
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="NJMFw-u_C302tOv5NdWR-40" vertex="1">
           <mxGeometry y="208" width="200" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="NJMFw-u_C302tOv5NdWR-75" value="category: Category" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="NJMFw-u_C302tOv5NdWR-40" vertex="1">
-          <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NJMFw-u_C302tOv5NdWR-56" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="-840" width="200" height="268" as="geometry" />
